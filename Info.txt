@@ -1,0 +1,13 @@
+HTML5, CSS3 & JavaScript Course: Complete Guide
+
+
+In VS Code for getting html sceleton write
+
+html and select html:5
+
+b -bold		<strong>
+i -italic	<em>
+u -underline	
+s -strike	<del>
+
+target = _blank 	Newtab
