@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
