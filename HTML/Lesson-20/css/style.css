@@ -48,6 +48,7 @@ body{
     padding: 0px;
     position: absolute;
     display: none;
+    z-index: 999;
 }
 .drop > li > a{
     color: white;
@@ -63,4 +64,14 @@ body{
 }
 .main-menu > ul > li:hover .drop{
     display: block;
+}
+/* banner */
+.banner{
+    width: 1000px;
+    height: 1293.33px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
 }
