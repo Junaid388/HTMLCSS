@@ -84,6 +84,7 @@ body{
     height: auto;
     padding: 25px;
     background-color: white;
+    float: left;
 }
 .content h1{
     font-size: 1.5em;
@@ -92,4 +93,25 @@ body{
 .content p{
     font-size: small;
     font-family: sans-serif;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: white;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul >li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    text-decoration: none;
 }
