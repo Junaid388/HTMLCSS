@@ -157,3 +157,7 @@ body{
 .copy > p{
     margin: 0px;
 }
+/* page */
+.content img{
+    max-width: 100%;
+}
