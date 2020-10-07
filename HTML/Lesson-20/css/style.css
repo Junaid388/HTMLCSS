@@ -161,3 +161,35 @@ body{
 .content img{
     max-width: 100%;
 }
+/* Product */
+.product{
+    width: 211.33px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.product p{
+    font-weight: bold;
+}
+.product ins{
+    color: green;
+}
+.product a{
+    display: block;
+    background-color: teal;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+
+}
+.product img {
+    height: 335px;
+}
+.product a:hover{
+    background-color: orange;
+}
