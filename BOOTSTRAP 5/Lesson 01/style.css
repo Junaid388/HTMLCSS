@@ -10,3 +10,7 @@
 .height2{
     height: 100px;
 }
+.my_form{
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
