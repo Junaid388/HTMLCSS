@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section > div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 5px;
+            float: left;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+
+        for (let i =0; i<45; i++){
+            var div = document.createElement('div');
+            div.onclick = function(){
+                alert("You clicked on the box "+ i)
+            }
+            document.getElementsByTagName('section')[0].appendChild(div);
+        }
+    
+        </script>
+    
+</head>
+<body>
+    <header><h1>Click on any box</h1></header>
+    <section>
+
+    </section>
+</body>
+</html>
