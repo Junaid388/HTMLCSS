@@ -19,10 +19,10 @@
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <div class="alert alert-primary alert-dismissable fade show">
-            <strong>Bootstrap 5 , Testing</strong>
-            <button type="button" class="close" data-dismiss="alert" aria-label="close">
-              <span aria-label="true">&times;</span>
-            </button>
+          <strong>Bootstrap 5 , Testing</strong>
+          <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-label="true">&times;</span>
+          </button>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
         </nav>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-start">
       <div class="col-lg-8 mt-5">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -65,6 +65,22 @@
           </a>
         </div>
       </div>
+      <div class="col-lg-4 mt-5">
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Link collapse <span class="badge bg-danger">1</span>
+          </a>
+        </p>
+
+        <div class="collapse" id=collapseExample>
+          <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro fugiat sunt dignissimos sit, fugit
+            placeat sed laudantium, eos repellendus facilis alias aspernatur amet. Voluptatem blanditiis veniam
+            perspiciatis rem pariatur.
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row justify-content-start">
       <div class="col-lg-6 mt-5">
@@ -80,10 +96,16 @@
           <div class="card-header">
             This is a Header
           </div>
-          <img class=img-thumbnail src="images/img.jpg" alt="quote">
           <div class="card-body">
-            <h4 class="card-title">This is a Title</h4>
-            <p class="card-text">This is a simpled text</p>
+            <div class="row">
+            <div class="col-lg-4">
+              <img class=img-thumbnail src="images/img.jpg" alt="quote">
+            </div>
+            <div class="col-lg-8">
+              <h4 class="card-title">This is a Title</h4>
+              <p class="card-text">This is a simple text</p>
+            </div>
+          </div>
           </div>
           <div class="card-footer">
             <a href="" class="btn btn-sm btn-success">Read more</a>
@@ -332,59 +354,54 @@
       <div class="col-lg-4">
         <!-- <div class="row justify-content-start">
           <div class="col-lg-12"> -->
-            <div class="border border-info mt-3 rounded my_form">
-              <h4>Login Form</h4>
-              <p class="lead">Use authorized credentials</p>
-              <form>
-                <div class="mb-3">
-                  <!-- <label class="form-label"> Username</label> -->
-                  <input type="text" name="u_name" class="form-control" placeholder="Username">
-                </div>
-                <div class="mb-3">
-                  <input type="password" name="u_pass" class="form-control" placeholder="Password">
-                </div>
-                <div class="mb-3">
-                  <input type="submit" value="Login" name="u_login" class="btn btn-primary">
-                </div>
-              </form>
+        <div class="border border-info mt-3 rounded my_form">
+          <h4>Login Form</h4>
+          <p class="lead">Use authorized credentials</p>
+          <form>
+            <div class="mb-3">
+              <!-- <label class="form-label"> Username</label> -->
+              <input type="text" name="u_name" class="form-control" placeholder="Username">
             </div>
-          <!-- </div>
+            <div class="mb-3">
+              <input type="password" name="u_pass" class="form-control" placeholder="Password">
+            </div>
+            <div class="mb-3">
+              <input type="submit" value="Login" name="u_login" class="btn btn-primary">
+            </div>
+          </form>
+        </div>
+        <!-- </div>
         </div> -->
       </div>
       <div class="col-lg-8">
         <!-- <div class="row justify-content-center">
           <div class="col-lg-12"> -->
-            <div class="border border-info mt-3 rounded my_form">
-              <h4>Sign-up to get started</h4>
-              <p class="text-muted">Receive Daily Updates</p>
-              <form>
-                <div class="row mb-3">
-                  <div class="col-lg-6">
-                    <input type="text" name="f_name" class="form-control form-control-sm" placeholder="First Name">
-                  </div>
-                  <div class="col-lg-6">
-                    <input type="text" name="l_name" class="form-control form-control-sm" placeholder="Last Name">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <input type="email" name="u_mail" class="form-control form-control-sm" placeholder="Email ID">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                  <input type="button" value="Sign-up for updates" class="btn btn-sm btn-primary btn-block">
-                </div>
+        <div class="border border-info mt-3 rounded my_form">
+          <h4>Sign-up to get started</h4>
+          <p class="text-muted">Receive Daily Updates</p>
+          <form>
+            <div class="row mb-3">
+              <div class="col-lg-6">
+                <input type="text" name="f_name" class="form-control form-control-sm" placeholder="First Name">
               </div>
-              </form>
+              <div class="col-lg-6">
+                <input type="text" name="l_name" class="form-control form-control-sm" placeholder="Last Name">
+              </div>
             </div>
-          <!-- </div>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="email" name="u_mail" class="form-control form-control-sm" placeholder="Email ID">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="button" value="Sign-up for updates" class="btn btn-sm btn-primary btn-block">
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- </div>
         </div> -->
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-6 mt-5">
-        <button class="btn btn-secondary">Inbox <span class="badge bg-danger">3</span></button>
       </div>
     </div>
   </div>
