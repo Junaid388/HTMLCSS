@@ -146,8 +146,8 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="btn-group">
-              <a href="#" class="btn btn-primary">Simple href</a>
-              <span class="btn btn-warning">Span</span>
+              <a href="#" class="btn btn-primary">href</a>
+              <span class="btn btn-warning" data-toggle="popover" title="Popover title" data-content="Here is some data to show in popover">Popover</span>
               <input type="submit" class="btn btn-danger">
             </div>
           </div>
@@ -526,6 +526,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
     integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
     crossorigin="anonymous"></script>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll(`[data-toggle="popover"]`))
+      var popoverList = popoverTriggerList.map(function(popoverTriggered){
+        return new bootstrap.Popover(popoverTriggered)
+      })
+    </script>
 
   <!-- Option 2: Separate Popper.js and Bootstrap JS
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
