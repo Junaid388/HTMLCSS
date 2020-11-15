@@ -85,10 +85,27 @@
     <div class="row justify-content-start">
       <div class="col-lg-6 mt-5">
         <button class="btn btn-sm btn-block btn-success disabled">Button</button><br>
-        <div class="btn-group">
-          <a href="#" class="btn btn-primary">Simple href</a>
-          <span class="btn btn-warning">Span</span>
-          <input type="submit" class="btn btn-danger">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Simple href</a>
+              <span class="btn btn-warning">Span</span>
+              <input type="submit" class="btn btn-danger">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" id=my_dropdown data-toggle="dropdown"
+                aria-expanded="false">
+                Drop down Button
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="my_dropdown">
+                <li><a href="#" class="dropdown-item">Action</a></li>
+                <li><a href="#" class="dropdown-item">Another Section</a></li>
+                <li><a href="#" class="dropdown-item">Something Else</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-lg-6 mt-5">
@@ -98,14 +115,14 @@
           </div>
           <div class="card-body">
             <div class="row">
-            <div class="col-lg-4">
-              <img class=img-thumbnail src="images/img.jpg" alt="quote">
+              <div class="col-lg-4">
+                <img class=img-thumbnail src="images/img.jpg" alt="quote">
+              </div>
+              <div class="col-lg-8">
+                <h4 class="card-title">This is a Title</h4>
+                <p class="card-text">This is a simple text</p>
+              </div>
             </div>
-            <div class="col-lg-8">
-              <h4 class="card-title">This is a Title</h4>
-              <p class="card-text">This is a simple text</p>
-            </div>
-          </div>
           </div>
           <div class="card-footer">
             <a href="" class="btn btn-sm btn-success">Read more</a>
