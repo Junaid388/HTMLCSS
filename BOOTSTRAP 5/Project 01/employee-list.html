@@ -64,9 +64,9 @@
                         <td>1</td>
                         <td>John Doe</td>
                         <td>Johndoe@gmail.com</td>
-                        <td><a href="" data-bs-toggle="modal" data-bs-target="#employee_details1"  class="btn btn-sm btn-block btn-info">Details</a></td>
-                        <td><a href="" class="btn btn-sm btn-block btn-warning">Edit</a></td>
-                        <td><a href="" class="btn btn-sm btn-block btn-danger">Delete</a></td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#employee_details1" class="btn btn-sm btn-block btn-info">Details</a></td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#employee_editdetails1" class="btn btn-sm btn-block btn-warning">Edit</a></td>
+                        <td><a href="" class="btn btn-sm btn-block btn-danger" onclick="confirm('Are you sure you want to delete \'John Doe \' ?')">Delete</a></td>
                     </tr><tr>
                         <td>2</td>
                         <td>John Doe</td>
@@ -169,6 +169,41 @@
       <td>Graphic Designer</td>
   </tr>
         </table>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Edit employee details modal -->
+  <div class="modal fade" id="employee_editdetails1" tabindex="-1" aria-labelledby="employee_editdetails1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Employee Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control form-control-sm" value="09-01-2021" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control form-control-sm" value="John Doe" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control form-control-sm" value="Johndoe@gmail.com" required>
+                </div>
+                <div class="mb-3">
+                    <input type="tel" class="form-control form-control-sm" value="9848012345"  required>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-control-sm" value="Graphic Designer" required>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-sm btn-success btn-block" >Edit Employee</button>
+                </div>
+            </form>
+        </div>
       </div>
     </div>
   </div>
