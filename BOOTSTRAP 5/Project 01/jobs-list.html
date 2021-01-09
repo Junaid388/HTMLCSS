@@ -15,14 +15,14 @@
       <!--nav-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#dash.html">Hi, Khan</a>
+          <a class="navbar-brand" href="dash.html">Hi, Khan</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#employee-list.html">Employees</a>
+                <a class="nav-link" aria-current="page" href="employee-list.html">Employees</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="jobs-list.html">Jobs</a>
@@ -46,7 +46,7 @@
                       <div class="list-group-item active">
                         Jobs Data
                       </div>
-                      <a href="" class="list-group-item" data-bs-toggle="modal" data-bs-target="#add_employee">Add New Job</a>
+                      <a href="" class="list-group-item" data-bs-toggle="modal" data-bs-target="#add_job">Add New Job</a>
                       <a href="jobs-list.html" class="list-group-item">View all Jobs</a>
                   </div>
               </div>
@@ -62,9 +62,9 @@
                       <tr>
                         <td>1</td>
                         <td>Graphic Designer</td>
-                        <td><a href="" data-bs-toggle="modal" data-bs-target="#employee_details1" class="btn btn-sm btn-block btn-info">Details</a></td>
-                        <td><a href="" data-bs-toggle="modal" data-bs-target="#employee_editdetails1" class="btn btn-sm btn-block btn-warning">Edit</a></td>
-                        <td><a href="" class="btn btn-sm btn-block btn-danger" onclick="confirm('Are you sure you want to delete \'John Doe \' ?')">Delete</a></td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#job_details1" class="btn btn-sm btn-block btn-info">Details</a></td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#job_editdetails1" class="btn btn-sm btn-block btn-warning">Edit</a></td>
+                        <td><a href="" class="btn btn-sm btn-block btn-danger" onclick="confirm('Are you sure you want to delete \'Graphic Designer \' ?')">Delete</a></td>
                     </tr><tr>
                         <td>2</td>
                         <td>Web Designer</td>
@@ -83,14 +83,14 @@
           </div>
       </div>
       <!-- dashboard contents -->
-      <!-- modal for add employee -->
+      <!-- modal for add jobs -->
   
   <!-- Modal -->
-  <div class="modal fade" id="add_employee" tabindex="-1" aria-labelledby="add_employee" aria-hidden="true">
+  <div class="modal fade" id="add_job" tabindex="-1" aria-labelledby="add_job" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add Employee Details</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Add Job Details</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -99,23 +99,10 @@
                     <input type="date" class="form-control form-control-sm" required>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control form-control-sm" placeholder="Employee Name" required>
+                    <input type="text" class="form-control form-control-sm" placeholder="Job Name" required>
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control form-control-sm" placeholder="Employee Email" required>
-                </div>
-                <div class="mb-3">
-                    <input type="tel" class="form-control form-control-sm" placeholder="Employee Phone" required>
-                </div>
-                <div class="mb-3">
-                    <select class="form-control form-control-sm">
-                        <option value="Graphic Designer">Graphic Designer</option>
-                        <option value="Web Designer">Web Designer</option>
-                        <option value="Web Developer">Web Developer</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-sm btn-success btn-block" >Add New Employee</button>
+                    <button type="submit" class="btn btn-sm btn-success btn-block" >Add New Job</button>
                 </div>
             </form>
         </div>
@@ -125,11 +112,11 @@
   <!-- modal for add employee -->
 
   <!-- Details Modal -->
-  <div class="modal fade" id="employee_details1" tabindex="-1" aria-labelledby="employee_details1" aria-hidden="true">
+  <div class="modal fade" id="job_details1" tabindex="-1" aria-labelledby="job_details1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Employee Details</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Job Details</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <table class="table">
@@ -138,37 +125,25 @@
             <td>1</td>
         </tr>
         <tr>
-          <th>Joining Date</th>
+          <th>Job Added Date</th>
           <td>07 Jan 2021</td>
       </tr>
         <tr>
           <th>Name</th>
-          <td>John Doe</td>
+          <td>Graphic Designer</td>
       </tr>
-      <tr>
-        <th>Email</th>
-        <td>Johndoe@gmail.com</td>
-    </tr>
-    <tr>
-      <th>Phone</th>
-      <td>+91-9848012345</td>
-  </tr>
-    <tr>
-      <th>Job</th>
-      <td>Graphic Designer</td>
-  </tr>
         </table>
       </div>
     </div>
   </div>
 
 
-  <!-- Edit employee details modal -->
-  <div class="modal fade" id="employee_editdetails1" tabindex="-1" aria-labelledby="employee_editdetails1" aria-hidden="true">
+  <!-- Edit job details modal -->
+  <div class="modal fade" id="job_editdetails1" tabindex="-1" aria-labelledby="job_editdetails1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add Employee Details</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Update Job Details</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -177,19 +152,10 @@
                     <input type="text" class="form-control form-control-sm" value="09-01-2021" required>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control form-control-sm" value="John Doe" required>
+                    <input type="text" class="form-control form-control-sm" value="Graphic Designer" required>
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control form-control-sm" value="Johndoe@gmail.com" required>
-                </div>
-                <div class="mb-3">
-                    <input type="tel" class="form-control form-control-sm" value="9848012345"  required>
-                </div>
-                <div class="mb-3">
-                  <input type="text" class="form-control form-control-sm" value="Graphic Designer" required>
-                </div>
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-sm btn-success btn-block" >Edit Employee</button>
+                    <button type="submit" class="btn btn-sm btn-success btn-block" >Update Job</button>
                 </div>
             </form>
         </div>
