@@ -9,13 +9,32 @@
    padding-top: 150px;
    padding-bottom: 100px;
 }
+.default-header{
+   background-image: url(../img/Banner.jpg);
+   background-size: cover;
+   padding-top: 100px;
+   padding-bottom: 50px;
+}
+
 .header-text-holder, .subscribe-holder{
    text-align: center;
    color: white;
 }
-.home-body-content{
+.default-header-text-holder{
+   color: white;
+}
+.default-header-text-holder h1{
+   font-size: 2em;
+}
+.home-body-content, .default-body-content{
    padding-top: 50px;
    padding-bottom: 50px;
+}
+.default-body-content .list-group .list-group-item h3{
+   font-size: 1.3em;
+}
+.default-body-content .list-group a{
+   color: black;
 }
 .home-body-content  .my_card{
    margin-bottom: 25px;
