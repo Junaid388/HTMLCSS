@@ -28,3 +28,12 @@
 .my_card h3{
    font-size: 1.2em;
 }
+.main-footer{
+   padding-top: 25px;
+   padding-bottom: 25px;
+   color: white;
+   background-color: black;
+}
+.main-footer p{
+   margin: 0px;
+}
