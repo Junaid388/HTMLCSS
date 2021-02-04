@@ -13,3 +13,18 @@
    text-align: center;
    color: white;
 }
+.home-body-content{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.home-body-content  .my_card{
+   margin-bottom: 25px;
+   transition-duration: 0.4s;
+}
+.my_card:hover{
+   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+   transition-duration: 0.4s;
+}
+.my_card h3{
+   font-size: 1.2em;
+}
