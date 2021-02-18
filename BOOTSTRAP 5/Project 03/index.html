@@ -40,12 +40,48 @@
               </li>
             </ul>
             <div class="d-flex">
-                <a href="" class="btn btn-sm btn-success">Register Online</a>
+                <a href="" data-bs-toggle="modal" data-bs-target="#register_online" class="btn btn-sm btn-success">Register Online</a>
             </div>
           </div>
         </div>
       </nav>
       <!-- nav -->
+      <!-- register online modal -->
+      <!-- Modal -->
+<div class="modal fade" id="register_online" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register Online</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <dic class="custom-divider">
+            
+        </dic>
+        <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ex excepturi quod, similique,</p>
+          <form>
+              <div class="mb-3">
+                  <input type="text" class="form-control form-control-sm" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control form-control-sm" placeholder="Your Email ID" required>
+            </div>
+            <div class="mb-3">
+                <input type="tel" class="form-control form-control-sm" placeholder="Phone" required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control form-control-sm" placeholder="Course Name" required>
+            </div>
+            <div class="mb-3">
+                <input type="submit" class="btn btn-success btn-block btn-sm" value="Register Online Now">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- register online modal -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -2,3 +2,11 @@
     font-size: small;
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.3);
 }
+.custom_nav ul.dropdown-menu{
+    font-size: small;
+}
+.custom-divider{
+    height: 5px;
+    background: rgb(255,145,0);
+    background: linear-gradient(90deg, rgba(255,145,0,1) 0%, rgba(9,9,121,1) 15% , rgba(153,7,128,1) 39%,rgba(26,221,3,1) 79%,rgba(0,212,255,1) 100%);
+}
