@@ -59,3 +59,14 @@
 .classroom-training{
     background-color: whitesmoke;
 }
+.sign-up-form-sidebar .card-title{
+    font-size: 1.2em;
+}
+.sign-up-form-sidebar .card-text{
+    font-size: 14px;
+}
+.course-list-item{
+    color: black;
+    font-size: small;
+    padding-top: 20px;
+}
