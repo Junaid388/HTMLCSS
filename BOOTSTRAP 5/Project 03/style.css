@@ -17,3 +17,18 @@
     background-size: cover;
     color: white;
 }
+.feature-holder{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section-features{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+.feature-holder h3{
+    font-size: 1.2em;
+}
+.feature-holder p{
+    font-size: 14px;
+}
