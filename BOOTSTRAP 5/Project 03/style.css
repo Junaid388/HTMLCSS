@@ -32,17 +32,17 @@
 .feature-holder p{
     font-size: 14px;
 }
-.setion-online-sourses{
+.setion-online-courses, .classroom-training{
     padding-top: 35px;
     padding-bottom: 35px;
 }
-.online-courses-text-widget{
+.online-courses-text-widget, .classroom-courses-text-widget{
     text-align: center;
 }
-.online-courses-text-widget h2 {
+.online-courses-text-widget h2, .classroom-courses-text-widget h2{
     font-size: 1.3em;
 }
-.online-courses-text-widget p {
+.online-courses-text-widget p, .classroom-courses-text-widget p {
     font-size: 14px;
 }
 .online-course-card{
@@ -55,4 +55,7 @@
 }
 .card.online-course-card .card-text {
     font-size: 14px;
+}
+.classroom-training{
+    background-color: whitesmoke;
 }
