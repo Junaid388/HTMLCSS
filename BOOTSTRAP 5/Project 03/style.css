@@ -39,9 +39,20 @@
 .online-courses-text-widget{
     text-align: center;
 }
-.online-courses-text-widget h2{
+.online-courses-text-widget h2 {
     font-size: 1.3em;
 }
-.online-courses-text-widget p{
+.online-courses-text-widget p {
+    font-size: 14px;
+}
+.online-course-card{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.online-course-card .card-title{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+.card.online-course-card .card-text {
     font-size: 14px;
 }
