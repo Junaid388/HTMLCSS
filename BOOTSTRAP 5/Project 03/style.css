@@ -32,3 +32,16 @@
 .feature-holder p{
     font-size: 14px;
 }
+.setion-online-sourses{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.online-courses-text-widget{
+    text-align: center;
+}
+.online-courses-text-widget h2{
+    font-size: 1.3em;
+}
+.online-courses-text-widget p{
+    font-size: 14px;
+}
