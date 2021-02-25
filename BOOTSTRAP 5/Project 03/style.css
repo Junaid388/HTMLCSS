@@ -32,7 +32,7 @@
 .feature-holder p{
     font-size: 14px;
 }
-.setion-online-courses, .classroom-training, .reviews-slider{
+.setion-online-courses, .classroom-training, .reviews-slider, .page-content{
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -56,7 +56,7 @@
 .card.online-course-card .card-text {
     font-size: 14px;
 }
-.classroom-training{
+.classroom-training, .page-content{
     background-color: whitesmoke;
 }
 .reviews-slider{
@@ -131,4 +131,7 @@ section.copy{
 }
 section.copy p{
     margin: 0px
+}
+.google-map{
+    
 }
